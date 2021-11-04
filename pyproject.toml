@@ -1,7 +1,7 @@
 [project]
 name = "tle-download"
 version = {from = "tle_download/__init__.py"}
-description = ""
+description = "A small utility to download TLEs from Space Track."
 authors = [
     {name = "Cognitive Space", email = "paul@cognitivespace.com"},
 ]
@@ -12,6 +12,7 @@ dependencies = [
 requires-python = ">=3.7"
 dynamic = ["classifiers"]
 license = {text = "MIT"}
+readme = "README.md"
 
 [project.urls]
 homepage = "https://github.com/cognitive-space/tle-download"
