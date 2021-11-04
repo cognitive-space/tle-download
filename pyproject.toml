@@ -1,6 +1,6 @@
 [project]
 name = "tle-download"
-version = "0.1.0"
+version = {from = "tle_download/__init__.py"}
 description = ""
 authors = [
     {name = "Cognitive Space", email = "paul@cognitivespace.com"},
@@ -28,3 +28,4 @@ build-backend = "pdm.pep517.api"
 
 [tool.pdm.scripts]
 _.env_file = ".env"
+publish = "pdm publish --username pizzapanther"
