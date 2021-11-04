@@ -1,0 +1,30 @@
+[project]
+name = "tle-download"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Cognitive Space", email = "paul@cognitivespace.com"},
+]
+dependencies = [
+    "httpx~=0.20",
+    "typer~=0.4",
+]
+requires-python = ">=3.7"
+dynamic = ["classifiers"]
+license = {text = "MIT"}
+
+[project.urls]
+homepage = "https://github.com/cognitive-space/tle-download"
+
+[project.scripts]
+tledl = "tle_download.main:cli"
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]
+
+[tool.pdm.scripts]
+_.env_file = ".env"
