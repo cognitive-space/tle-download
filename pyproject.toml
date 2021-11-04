@@ -10,7 +10,7 @@ dependencies = [
     "typer~=0.4",
 ]
 requires-python = ">=3.7"
-dynamic = ["classifiers"]
+dynamic = ["classifiers", "version"]
 license = {text = "MIT"}
 readme = "README.md"
 
